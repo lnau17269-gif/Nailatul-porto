@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#173b45">
+	<meta name="description" content="Portofolio Nailatul Hofifah — Pelajar Rekayasa Perangkat Lunak (RPL) SMKN 8 Jember. Siap menerima kesempatan Praktik Kerja Lapangan (PKL) Web Development.">
+	<meta name="author" content="Nailatul Hofifah">
+
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="Nailatul Hofifah — Portofolio Rekayasa Perangkat Lunak">
+	<meta property="og:description" content="Portofolio web development, proyek PHP, MySQL, Laravel, dan sertifikasi pemrograman Nailatul Hofifah.">
+	<meta property="og:image" content="assets/img/naila.png">
+	<meta property="og:type" content="website">
+
+	<title>Nailatul Hofifah — Rekayasa Perangkat Lunak · SMKN 8 Jember</title>
+
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- HEADER NAVIGATION -->
+	<header class="topbar">
+		<nav class="nav wrap" aria-label="Navigasi Utama">
+			<a class="brand" href="#beranda">NAILATUL <span class="brand-role">RPL · SMKN 8 JEMBER</span></a>
+			<button class="menu-toggle" type="button" aria-label="Buka Menu Navigasi" aria-expanded="false">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+			</button>
+			<div class="nav-links">
+				<a href="#tentang">Tentang</a>
+				<a href="#keahlian">Keahlian</a>
+				<a href="#proyek">Proyek</a>
+				<a href="#sertifikat">Sertifikat</a>
+				<a href="#kontak">Kontak</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<!-- HERO SECTION -->
+		<section class="hero wrap" id="beranda">
+			<div class="hero-content">
+				<div class="hero-badge">
+					<span class="status-dot" aria-hidden="true"></span>
+					<span>Terbuka untuk Kesempatan PKL &middot; 2026/2027</span>
+				</div>
+				<h1>NAILATUL<br><span class="accent">HOFIFAH</span></h1>
+				<p class="hero-bio">
+					Pelajar <strong>Rekayasa Perangkat Lunak (RPL)</strong> di SMKN 8 Jember yang berfokus pada pengembangan aplikasi web. Antusias mempelajari arsitektur basis data relasional (MySQL), logika backend (PHP &amp; Laravel), antarmuka terstruktur (Bootstrap), serta dasar pemrograman berorientasi objek (Java).
+				</p>
+				<div class="hero-actions">
+					<a class="btn btn-primary" href="#proyek">
+						Lihat Proyek Pilihan
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+					</a>
+					<a class="btn btn-secondary" href="#kontak">
+						Hubungi untuk Magang / PKL
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+					</a>
+				</div>
+			</div>
+
+			<div class="hero-visual">
+				<div class="portrait-card">
+					<div class="floating-badge badge-top">SMKN 8 JEMBER ✳</div>
+					<div class="portrait-frame">
+						<img src="assets/img/naila.png" alt="Foto Profil Nailatul Hofifah" width="959" height="1280" fetchpriority="high">
+					</div>
+					<div class="portrait-caption">
+						<span class="portrait-name">Nailatul Hofifah</span>
+						<span class="portrait-grade">XI RPL</span>
+					</div>
+					<div class="floating-badge badge-bottom">WEB DEV &bull; DATABASE</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- TICKER BANNER -->
+		<div class="ticker" aria-hidden="true">
+			<div class="ticker-track">
+				<span>REKAYASA PERANGKAT LUNAK <b>✦</b> PHP &amp; MYSQL <b>✦</b> LARAVEL FRAMEWORK <b>✦</b> BOOTSTRAP 5 <b>✦</b> JAVA FUNDAMENTAL <b>✦</b> SMKN 8 JEMBER <b>✦</b> BELAJAR &amp; BERKARYA <b>✦</b></span>
+				<span>REKAYASA PERANGKAT LUNAK <b>✦</b> PHP &amp; MYSQL <b>✦</b> LARAVEL FRAMEWORK <b>✦</b> BOOTSTRAP 5 <b>✦</b> JAVA FUNDAMENTAL <b>✦</b> SMKN 8 JEMBER <b>✦</b> BELAJAR &amp; BERKARYA <b>✦</b></span>
+			</div>
+		</div>
+
+		<!-- TENTANG SAYA (TABS) -->
+		<section class="wrap" id="tentang">
+			<div class="section-head">
+				<div>
+					<p class="section-label eyebrow">01 / Latar Belakang</p>
+					<h2>Tentang Saya &amp;<br>Fokus Kejuruan.</h2>
+				</div>
+				<p class="section-intro">Profil ringkas, perjalanan pendidikan kejuruan di SMKN 8 Jember, serta karakter kerja yang saya pegang.</p>
+			</div>
+
+			<div class="tabs-container">
+				<div class="tabs-nav" role="tablist" aria-label="Informasi Tentang Nailatul Hofifah">
+					<button type="button" role="tab" id="tab-profil" aria-controls="panel-profil" aria-selected="true">
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+						Profil Siswa
+					</button>
+					<button type="button" role="tab" id="tab-pendidikan" aria-controls="panel-pendidikan" aria-selected="false" tabindex="-1">
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+						Pendidikan
+					</button>
+					<button type="button" role="tab" id="tab-softskills" aria-controls="panel-softskills" aria-selected="false" tabindex="-1">
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+						Karakter &amp; Soft Skills
+					</button>
+				</div>
+
+				<!-- Panel 1: Profil -->
+				<div class="tab-panel" id="panel-profil" role="tabpanel" aria-labelledby="tab-profil">
+					<p class="bio-intro-text">
+						Halo! Nama saya <strong>Nailatul Hofifah</strong> (akrab disapa <strong>Naila</strong>). Sebagai siswi jurusan Rekayasa Perangkat Lunak, saya menyukai proses membangun aplikasi dari sisi logika data hingga tampilan yang nyaman digunakan. Saya percaya bahwa kode yang baik adalah kode yang rapi, terstruktur, dan mampu memecahkan permasalahan pengguna secara nyata.
+					</p>
+					<dl class="bio-grid">
+						<div class="bio-row"><dt>Nama Lengkap</dt><dd>Nailatul Hofifah</dd></div>
+						<div class="bio-row"><dt>Nama Panggilan</dt><dd>Naila</dd></div>
+						<div class="bio-row"><dt>Sekolah</dt><dd>SMKN 8 Jember</dd></div>
+						<div class="bio-row"><dt>Konsentrasi Keahlian</dt><dd>Rekayasa Perangkat Lunak (RPL)</dd></div>
+						<div class="bio-row"><dt>Domisili</dt><dd>Jember, Jawa Timur, Indonesia</dd></div>
+						<div class="bio-row"><dt>Status Magang</dt><dd><span style="color: #276749; font-weight:600;">Tersedia untuk PKL / Internship</span></dd></div>
+					</dl>
+				</div>
+
+				<!-- Panel 2: Pendidikan -->
+				<div class="tab-panel" id="panel-pendidikan" role="tabpanel" aria-labelledby="tab-pendidikan" hidden>
+					<div class="timeline">
+						<div class="timeline-item">
+							<span class="timeline-tag">2025 &mdash; Sekarang (Aktif)</span>
+							<h3>SMKN 8 Jember</h3>
+							<p>Program Keahlian <strong>Rekayasa Perangkat Lunak (RPL)</strong>. Mendalami mata pelajaran produktif: Pemrograman Web (PHP, HTML, CSS, JavaScript, Bootstrap), Basis Data (MySQL), Pemrograman Berorientasi Objek (Java &amp; PHP), serta Pemodelan Perangkat Lunak.</p>
+						</div>
+						<div class="timeline-item">
+							<span class="timeline-tag">2022 &mdash; 2025</span>
+							<h3>Pendidikan Menengah Pertama (SMP)</h3>
+							<p>Menyelesaikan pendidikan dasar dengan minat tinggi pada mata pelajaran eksakta, logika matematika, serta teknologi informasi.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Panel 3: Soft Skills -->
+				<div class="tab-panel" id="panel-softskills" role="tabpanel" aria-labelledby="tab-softskills" hidden>
+					<div class="skills-cards-grid">
+						<div class="skill-card">
+							<h4><span>🔍</span> Problem Solving</h4>
+							<p>Terbiasa membaca pesan error, debugging alur data, dan mencari solusi logis melalui dokumentasi resmi maupun referensi teknis.</p>
+						</div>
+						<div class="skill-card">
+							<h4><span>🤝</span> Kolaborasi Tim</h4>
+							<p>Mampu berkoordinasi dengan baik dalam tugas kelompok kejuruan, menghargai pembagian tugas, serta terbuka menerima masukan.</p>
+						</div>
+						<div class="skill-card">
+							<h4><span>⏱️</span> Manajemen Waktu</h4>
+							<p>Disiplin dalam menyelesaikan tugas proyek dan modul praktikum laboratorium sesuai dengan tenggat waktu (deadline) yang ditentukan.</p>
+						</div>
+						<div class="skill-card">
+							<h4><span>🌱</span> Kemauan Belajar Tinggi</h4>
+							<p>Senang mengeksplorasi teknologi baru di luar kurikulum wajib, seperti mengambil sertifikasi pemrograman mandiri di Getskill.id.</p>
+						</div>
+						<div class="skill-card">
+							<h4><span>🎯</span> Ketelitian Kode</h4>
+							<p>Memperhatikan penulisan sintaksis yang rapi, penamaan variabel yang deskriptif, dan konsistensi struktur direktori.</p>
+						</div>
+						<div class="skill-card">
+							<h4><span>💬</span> Komunikasi Sopan</h4>
+							<p>Menjaga etika berkomunikasi yang santun, profesional, dan siap dibimbing oleh instruktur maupun mentor industri.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- KEAHLIAN TEKNIS -->
+		<section class="wrap" id="keahlian">
+			<div class="section-head">
+				<div>
+					<p class="section-label eyebrow">02 / Kompetensi</p>
+					<h2>Teknologi yang<br>Dikuasai &amp; Dipelajari.</h2>
+				</div>
+				<p class="section-intro">Fondasi teknis yang saya pelajari melalui kurikulum RPL SMKN 8 Jember serta pelatihan sertifikasi kompetensi.</p>
+			</div>
+
+			<div class="tech-grid">
+				<!-- Backend & Database -->
+				<div class="tech-group">
+					<div class="tech-group-header">
+						<div class="tech-group-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7c0-1.7 3.6-3 8-3s8 1.3 8 3v10c0 1.7-3.6 3-8 3s-8-1.3-8-3V7z"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/><path d="M4 17c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+						</div>
+						<div>
+							<h3>Backend &amp; Database</h3>
+							<span class="eyebrow" style="color: var(--muted);">Pengolahan Data &amp; Server-Side</span>
+						</div>
+					</div>
+					<div class="tech-items-list">
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">PHP (Hypertext Preprocessor)</div>
+								<div class="tech-item-desc">Logika aplikasi web, pemrosesan formulir, penanganan session, dan arsitektur CRUD native.</div>
+							</div>
+							<span class="tech-tag">Core Language</span>
+						</div>
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">MySQL Database</div>
+								<div class="tech-item-desc">Perancangan skema relasional, SQL queries (SELECT, INSERT, UPDATE, DELETE), JOIN tabel, phpMyAdmin.</div>
+							</div>
+							<span class="tech-tag">RDBMS</span>
+						</div>
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">Laravel Framework</div>
+								<div class="tech-item-desc">Mempelajari pola MVC (Model-View-Controller), routing terstruktur, Blade templating, dan Eloquent ORM.</div>
+							</div>
+							<span class="tech-tag">In Progress</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Frontend & UI -->
+				<div class="tech-group">
+					<div class="tech-group-header">
+						<div class="tech-group-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+						</div>
+						<div>
+							<h3>Frontend &amp; Antarmuka</h3>
+							<span class="eyebrow" style="color: var(--muted);">Desain Web Responsif &amp; Interaktif</span>
+						</div>
+					</div>
+					<div class="tech-items-list">
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">HTML5 Semantic &amp; CSS3 Modern</div>
+								<div class="tech-item-desc">Penataan struktur yang aksesibel, Flexbox, Grid layout, CSS custom properties (variabel), media queries.</div>
+							</div>
+							<span class="tech-tag">Semantic &amp; Responsive</span>
+						</div>
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">Bootstrap 5</div>
+								<div class="tech-item-desc">Pembangunan antarmuka cepat dengan sistem 12-kolom, komponen navbar, modal dialog, formulir rapi.</div>
+							</div>
+							<span class="tech-tag">CSS Framework</span>
+						</div>
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">JavaScript Dasar</div>
+								<div class="tech-item-desc">Manipulasi DOM, penanganan event (click, change, submit), validasi input form sisi klien.</div>
+							</div>
+							<span class="tech-tag">Client Scripting</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Fundamental OOP -->
+				<div class="tech-group">
+					<div class="tech-group-header">
+						<div class="tech-group-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16.5 9.4L7.55 4.24a1.78 1.78 0 0 0-2.5 1.55v12.42a1.78 1.78 0 0 0 2.5 1.55l8.95-5.16a1.78 1.78 0 0 0 0-3.16z"/></svg>
+						</div>
+						<div>
+							<h3>Pemrograman Berorientasi Objek</h3>
+							<span class="eyebrow" style="color: var(--muted);">Konsep Logika Fundamental</span>
+						</div>
+					</div>
+					<div class="tech-items-list">
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">Java Fundamental</div>
+								<div class="tech-item-desc">Tipe data kuat, kontrol alur (if/else, switch, loop), class &amp; object, method, dan enkapsulasi (tersertifikasi Getskill.id).</div>
+							</div>
+							<span class="tech-tag">Certified</span>
+						</div>
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">Logika Algoritma &amp; Flowchart</div>
+								<div class="tech-item-desc">Perancangan alur proses sistem sebelum koding menggunakan diagram alur dan pseudocode.</div>
+							</div>
+							<span class="tech-tag">Problem Solving</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Tools & Environment -->
+				<div class="tech-group">
+					<div class="tech-group-header">
+						<div class="tech-group-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+						</div>
+						<div>
+							<h3>Perangkat Kerja &amp; Alur</h3>
+							<span class="eyebrow" style="color: var(--muted);">Development Environment</span>
+						</div>
+					</div>
+					<div class="tech-items-list">
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">VS Code &amp; Extensions</div>
+								<div class="tech-item-desc">Editor kode utama dilengkapi extension PHP, linter, Prettier, dan Live Server.</div>
+							</div>
+							<span class="tech-tag">Code Editor</span>
+						</div>
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">Git &amp; GitHub</div>
+								<div class="tech-item-desc">Pengelolaan repositori kode, commit berkala, dan version control untuk proyek sekolah.</div>
+							</div>
+							<span class="tech-tag">Version Control</span>
+						</div>
+						<div class="tech-item">
+							<div>
+								<div class="tech-item-name">XAMPP Server</div>
+								<div class="tech-item-desc">Lingkungan server lokal Apache dan MySQL untuk pengujian aplikasi web PHP.</div>
+							</div>
+							<span class="tech-tag">Local Server</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SHOWCASE PROYEK KARYA -->
+		<section class="wrap" id="proyek">
+			<div class="section-head">
+				<div>
+					<p class="section-label eyebrow">03 / Bukti Karya</p>
+					<h2>Proyek yang Pernah<br>Saya Kembangkan.</h2>
+				</div>
+				<p class="section-intro">Hasil implementasi nyata dari materi kejuruan Rekayasa Perangkat Lunak, berfokus pada fungsionalitas dan kemudahan penggunaan.</p>
+			</div>
+
+			<div class="projects-grid">
+				<!-- Proyek 1 -->
+				<article class="project-card">
+					<div class="project-body">
+						<div class="project-meta-top">
+							<span class="project-category">Web Database</span>
+							<span class="project-scope">Proyek Praktik RPL</span>
+						</div>
+						<h3>Aplikasi Pengelolaan Data Siswa (CRUD)</h3>
+						<p>Sistem manajemen database siswa terintegrasi untuk mencatat biodata, NIS, jurusan, serta rekapitulasi data siswa dengan alur kerja yang mudah dipahami.</p>
+						<ul class="project-features">
+							<li>Fitur lengkap: Create, Read, Update, Delete data</li>
+							<li>Pencarian instan berdasarkan NIS atau nama siswa</li>
+							<li>Validasi formulir input dan konfirmasi keamanan saat hapus data</li>
+						</ul>
+						<div class="project-tags">
+							<span>PHP Native</span>
+							<span>MySQL</span>
+							<span>Bootstrap 5</span>
+							<span>SQL Query</span>
+						</div>
+					</div>
+					<div class="project-footer">
+						<span class="eyebrow" style="color: var(--muted);">SMKN 8 Jember</span>
+						<a class="project-link" href="#kontak">
+							Lihat Detail Alur <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+						</a>
+					</div>
+				</article>
+
+				<!-- Proyek 2 -->
+				<article class="project-card">
+					<div class="project-body">
+						<div class="project-meta-top">
+							<span class="project-category">Front-End Landing</span>
+							<span class="project-scope">Proyek Web Responsif</span>
+						</div>
+						<h3>Landing Page Katalog Produk &amp; Pemesanan Cepat</h3>
+						<p>Website promosi produk lokal dengan antarmuka yang bersih dan interaktif. Dilengkapi integrasi langsung ke API WhatsApp untuk mempermudah transaksi pemesanan.</p>
+						<ul class="project-features">
+							<li>Desain responsif ramah smartphone dan desktop</li>
+							<li>Katalog kartu produk dengan harga dan deskripsi</li>
+							<li>Tombol order cepat yang membuka chat WA dengan pesan terformat</li>
+						</ul>
+						<div class="project-tags">
+							<span>HTML5 Semantic</span>
+							<span>CSS3 Flexbox</span>
+							<span>JavaScript</span>
+							<span>WhatsApp API</span>
+						</div>
+					</div>
+					<div class="project-footer">
+						<span class="eyebrow" style="color: var(--muted);">Front-End Project</span>
+						<a class="project-link" href="#kontak">
+							Tanya Demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+						</a>
+					</div>
+				</article>
+
+				<!-- Proyek 3 -->
+				<article class="project-card">
+					<div class="project-body">
+						<div class="project-meta-top">
+							<span class="project-category">Full-Stack Case</span>
+							<span class="project-scope">Eksplorasi Framework</span>
+						</div>
+						<h3>Prototipe Inventaris Sarana Lab Komputer RPL</h3>
+						<p>Sistem pencatatan peminjaman dan ketersediaan peralatan lab (laptop, proyektor, kabel jaringan) dengan struktur database relasional antar-tabel.</p>
+						<ul class="project-features">
+							<li>Pencatatan status ketersediaan barang (Tersedia / Dipinjam)</li>
+							<li>Pemisahan layout dengan sistem komponen Blade templating</li>
+							<li>Penyusunan migration tabel dan database seeder dasar</li>
+						</ul>
+						<div class="project-tags">
+							<span>Laravel (Blade)</span>
+							<span>PHP MVC</span>
+							<span>MySQL Relasi</span>
+							<span>Bootstrap</span>
+						</div>
+					</div>
+					<div class="project-footer">
+						<span class="eyebrow" style="color: var(--muted);">MVC Architecture</span>
+						<a class="project-link" href="#kontak">
+							Tanya Proyek <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+						</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- SERTIFIKASI RESMI -->
+		<section class="wrap" id="sertifikat">
+			<div class="section-head">
+				<div>
+					<p class="section-label eyebrow">04 / Kredensial</p>
+					<h2>Sertifikasi Kompetensi<br>Terverifikasi.</h2>
+				</div>
+				<p class="section-intro">Bukti penyelesaian pelatihan pemrograman terstruktur dengan nomor lisensi resmi yang dapat diverifikasi langsung.</p>
+			</div>
+
+			<div class="cert-showcase">
+				<div class="cert-image-frame">
+					<img src="assets/img/sertifikat-preview.png" alt="Sertifikat Java Fundamental Programming Nailatul Hofifah dari Getskill.id" width="900" height="636">
+				</div>
+				<div class="cert-info">
+					<div class="cert-issuer">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+						<span>Getskill.id &middot; Lembaga Pelatihan IT</span>
+					</div>
+					<h3>Java Fundamental Programming</h3>
+					<p>
+						Diberikan kepada <strong>Nailatul Hofifah</strong> atas kelulusannya pada kelas kompetensi pemrograman Java dasar, mencakup penguasaan sintaksis OOP, logika kondisi, iterasi, manipulasi method, serta manajemen objek.
+					</p>
+					<div class="cert-details-list">
+						<div class="cert-detail-item">
+							<span>Nomor Sertifikat</span>
+							<strong>12202512240383</strong>
+						</div>
+						<div class="cert-detail-item">
+							<span>Masa Berlaku</span>
+							<strong>Hingga 24 Desember 2028</strong>
+						</div>
+						<div class="cert-detail-item">
+							<span>Pemberi Lisensi</span>
+							<strong>Afrizal Himawan (CEO Getskill.id)</strong>
+						</div>
+						<div class="cert-detail-item">
+							<span>Status Dokumen</span>
+							<strong style="color: #276749;">&check; Terverifikasi Resmi</strong>
+						</div>
+					</div>
+					<div class="cert-actions">
+						<a class="btn btn-primary" href="assets/docs/sertifikat-12202512240383.pdf" target="_blank" rel="noreferrer">
+							Buka Dokumen PDF Asli
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+						</a>
+						<a class="btn btn-secondary" href="https://getskill.id/certificate/12202512240383" target="_blank" rel="noreferrer">
+							Verifikasi di Getskill.id ↗
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- BANNER KESIAPAN PKL & KONTAK -->
+		<section class="wrap contact-section" id="kontak">
+			<div class="pkl-card">
+				<span class="pkl-badge">⚡ KESIAPAN PRAKTIK KERJA LAPANGAN (PKL)</span>
+				<h2>Punya Kesempatan Magang atau Ingin Berdiskusi Proyek?</h2>
+				<p>
+					Saya siap belajar sungguh-sungguh, beradaptasi dengan alur kerja tim, dan memberikan kontribusi nyata dalam pengembangan aplikasi web di perusahaan Bapak/Ibu. Silakan hubungi saya melalui jalur komunikasi berikut:
+				</p>
+				<div class="contact-channels">
+					<a class="contact-item" href="mailto:lnau17269@gmail.com?subject=Tawaran%20Praktik%20Kerja%20Lapangan%20(PKL)%20-%20Nailatul%20Hofifah">
+						<div class="contact-item-left">
+							<div class="contact-item-icon">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+							</div>
+							<div>
+								<span>Surat Elektronik</span>
+								<strong>lnau17269@gmail.com</strong>
+							</div>
+						</div>
+						<span class="contact-item-arrow" aria-hidden="true">↗</span>
+					</a>
+
+					<a class="contact-item" href="https://instagram.com/nailatull4" target="_blank" rel="noreferrer">
+						<div class="contact-item-left">
+							<div class="contact-item-icon">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+							</div>
+							<div>
+								<span>Instagram</span>
+								<strong>@nailatull4</strong>
+							</div>
+						</div>
+						<span class="contact-item-arrow" aria-hidden="true">↗</span>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="footer-inner wrap">
+			<span>&copy; <span id="year"></span> <strong>Nailatul Hofifah</strong> &middot; Siswi Rekayasa Perangkat Lunak SMKN 8 Jember.</span>
+			<div class="footer-links">
+				<a href="#beranda">Kembali ke Atas &uarr;</a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JAVASCRIPT -->
+	<script src="assets/js/script.js" defer></script>
+</body>
+</html>
